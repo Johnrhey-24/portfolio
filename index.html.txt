@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #263859;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #17223b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #263859;
+}
+
+h2 {
+    color: #263859;
+}
+
+h3 {
+    color: #435b80;
+}
+
+li {
+    margin: 8px;
+}
+
+footer {
+    background-color: #263859;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Personal Portfolio</h1>
+    <p>Welcome To My Website.</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#goals">Goals</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <center>
+        <img src="c:\Users\johnr\OneDrive\Pictures\profile.jpg.jpg" alt="My Profile Picture" class="profile">
+    </center>
+
+    <h2>Home</h2>
+    <h3>Hello, I'm JohnRhey Calagos</h3>
+    <p>I am a college student who wants to learn more about programming and technology.</p>
+    <p>Welcome to my personal portfolio website!</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is JohnRhey Calagos.</p>
+    <p>Course: ACT 2 C</p>
+    <p>School: Datamex College Of Saint Adeline</p>
+    <p>Hobbies: Playing games, listening to music, and watching movies & Anime.</p>
+    <p>Interests: Computer, programming, and technology.</p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>Typing</li>
+        <li>Time Management</li>
+        <li>Communication</li>
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <h3>1. Pet List System</h3>
+    <p>A simple program for storing pet information.</p>
+    <p>Technology Used: Python</p>
+
+    <h3>2. Disaster Response Management System</h3>
+    <p>A simple program for managing disaster reports, emergency information, and rescue operations.</p>
+    <p>Technology Used: Visual Basic 6.0</p>
+
+    <h3>3. Personal Portfolio Website</h3>
+    <p>A website that introduces myself, my skills, and my projects.</p>
+    <p>Technology Used: HTML and CSS</p>
+</section>
+
+<section id="achievements">
+    <h2>My Achievements</h2>
+    <ul>
+        <li>Completed different school activities.</li>
+        <li>Learned basic programming.</li>
+        <li>Created simple programming projects.</li>
+    </ul>
+</section>
+
+<section id="goals">
+    <h2>My Future Goals</h2>
+    <p>My goal is to finish my studies and become a skilled IT.</p>
+    <p>I also want to improve my programming skills.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: Calagosjohnrhey@gmail.com</p>
+    <p>Facebook: My Facebook Profile</p>
+</section>
+
+<footer>
+    <p>© CALAGOS | My Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
